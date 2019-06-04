@@ -2,7 +2,7 @@ mkdir -p ~/.vim/autoload ~/.vim/bundle ~/.vim/colors && \
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim && \
 git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree && \
 git clone --depth=1 https://github.com/vim-syntastic/syntastic.git ~/.vim/bundle/syntastic && \
-wget https://raw.githubusercontent.com/dracula/vim/master/colors/dracula.vim -O /root/.vim/colors/dracula.vim && \
+wget https://raw.githubusercontent.com/dracula/vim/master/colors/dracula.vim -O ~/.vim/colors/dracula.vim && \
 git clone https://github.com/w0rp/ale.git ~/.vim/bundle/ale && \
 git clone git://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle/vim-colors-solarized && \
 git clone git://github.com/majutsushi/tagbar.git ~/.vim/bundle/tagbar && \
